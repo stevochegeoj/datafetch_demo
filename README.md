@@ -23,4 +23,5 @@ yarn lint
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
  
- my test
+ ### also check out the quiz API on
+  https://opentdb.com/api.php?amount=10&category=18&type=multiple
