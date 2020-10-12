@@ -23,13 +23,13 @@ export default {
     currentQuestion: Object,
     next: Function
   },
-  computed: {
-    answers() {
-      const answers = [...this.currentQuestion.incorrect_answer];
-      answers.push(this.currentQuestion.correct_answer);
-      return answers;
-    }
-  },
+  // computed: {
+  //   answers() {
+  //     const answers = [...this.currentQuestion.incorrect_answer];
+  //     answers.push(this.currentQuestion.correct_answer);
+  //     return answers;
+  //   }
+  // },
   mounted() {
     console.log(this.currentQuestion);
   }
